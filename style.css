@@ -1,9 +1,4 @@
 @font-face {
-  font-family: poppins;
-  src: url(Poppins/Poppins-Medium.ttf);
-}
-
-@font-face {
   font-family: static;
   src: url(static/Oswald-Medium.ttf);
 }
@@ -22,6 +17,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
+}
+
+body {
+  scroll-behavior: smooth;
 }
 
 /* Top Navbar */
@@ -69,6 +68,7 @@
 .main > .top-nav > .t-s-icons > .s-icon:hover {
   background-color: #fd4c82;
   color: #fff;
+  transition: 0.4s;
 }
 
 /* main navbar */
@@ -138,6 +138,7 @@
 
 .main > .nav > .n-right > ul > li:hover {
   color: #fd4c82;
+  transition: 0.4s;
 }
 
 .main > .nav > .n-right > button {
@@ -153,6 +154,7 @@
 
 .main > .nav > .n-right > button:hover {
   background-color: #9fd33f;
+  transition: 0.4s;
 }
 
 /* main content */
@@ -195,10 +197,12 @@
 
 .content > button:hover {
   background-color: #9fd33f;
+  transition: 0.4s;
 }
 
 .content .green-btn:hover {
   background-color: #fd4c82;
+  transition: 0.4s;
 }
 
 /* M boxes */
@@ -228,6 +232,7 @@
 .m-boxes > .box:hover {
   background-color: #fd4c82;
   color: #fff;
+  transition: 0.4s;
 }
 
 .m-boxes > .box > .circle {
@@ -399,6 +404,7 @@
 
 .input-box > .inp-child > .btn1:hover {
   background-color: #fd4c82;
+  transition: 0.4s;
 }
 
 .input-box > .inp-child > .select {
@@ -496,6 +502,7 @@
 
 .goomer-box > .g-c-box > .user-box > .h-icons > .icons:hover {
   background-color: #9fd33f;
+  transition: 0.4s;
 }
 
 /* Customer */
@@ -690,6 +697,7 @@
 
 .packages > .pac-box > .packag > button:hover {
   background-color: #9fd33f;
+  transition: 0.4s;
 }
 
 /* Blog Updates */
@@ -790,6 +798,7 @@
 
 .blog > .b-box > .blog-box > .bottom > .right > button:hover {
   background-color: #9fd33f;
+  transition: 0.4s;
 }
 
 /* Footer */
@@ -883,6 +892,7 @@
 
 .footer > .footer-part > .f-icons > .icon:hover {
   background-color: #9fd33f;
+  transition: 0.4s;
 }
 
 .footer > .footer-part > .location {
@@ -926,4 +936,24 @@
   text-decoration: underline;
   font-size: 17px;
   color: #fff;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #c5c5c5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9fd33f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fd4c82;
 }
